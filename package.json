@@ -4,7 +4,8 @@
   "description": "Basic codewars experience",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watchAll"
   },
   "author": "Rinat Moskvin",
   "license": "ISC",
