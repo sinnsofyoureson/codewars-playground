@@ -1,4 +1,4 @@
-import { findOdd } from "../find-odd";
+import { findOdd } from "../solution";
 import { assert } from "chai";
 
 /*

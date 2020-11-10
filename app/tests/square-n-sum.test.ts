@@ -1,4 +1,4 @@
-import { squareSum } from "../square-n-sum";
+import { squareSum } from "../solution";
 // import the type of assertion library you wish to use (Chai recommended)
 import { assert } from "chai";
 

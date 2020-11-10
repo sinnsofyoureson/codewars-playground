@@ -11,7 +11,7 @@
  * basicOp('/', 49, 7)        // Output: 7
  */
 
-import { basicOp } from "../basic-maths";
+import { basicOp } from "../solution";
 import { assert } from "chai";
 
 describe("basicOp", () => {
