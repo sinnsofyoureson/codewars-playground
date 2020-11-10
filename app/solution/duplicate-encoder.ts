@@ -33,3 +33,13 @@ export const duplicateEncode = (word: string) => {
 
   return arr.map(c => uniqueCharacters.get(c) === 1 ? '(' : ')').join('')
 }
+
+export function betterDuplicateEncode(word: string) {
+  return word
+    .toLowerCase()
+    .split("")
+    .map((a, i, w) => {
+      return w.indexOf(a) == w.lastIndexOf(a) ? "(" : ")";
+    })
+    .join("");
+}
