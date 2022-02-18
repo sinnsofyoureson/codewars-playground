@@ -32,6 +32,6 @@ export const betterFindOdd = (xs: number[]): number => {
   return xs.reduce((a, b) => a ^ b);
 };
 
-export function anotherFindOdd(xs: number[]): number {
+export function anotherFindOdd(xs: number[]) {
   return xs.find((x, i, a) => a.filter((y) => y === x).length % 2 === 1);
 }
