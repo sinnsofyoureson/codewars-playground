@@ -10,3 +10,4 @@ export * from "./ten-minute-walk";
 export * from "./vasya-game";
 export * from "./compose";
 export * from "./pipe";
+export * from "./merge-k-lists";
