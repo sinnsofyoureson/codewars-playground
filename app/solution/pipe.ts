@@ -11,8 +11,6 @@ export const pipe =
       } else {
         result = currentFunc(result);
       }
-
-      console.log({ currentFunc, result });
     }
 
     return result;
