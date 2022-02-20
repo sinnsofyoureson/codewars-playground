@@ -9,3 +9,4 @@ export * from "./string-ends-with";
 export * from "./ten-minute-walk";
 export * from "./vasya-game";
 export * from "./compose";
+export * from "./pipe";
