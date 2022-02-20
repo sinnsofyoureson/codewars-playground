@@ -8,3 +8,4 @@ export * from "./duplicate-encoder";
 export * from "./string-ends-with";
 export * from "./ten-minute-walk";
 export * from "./vasya-game";
+export * from "./compose";
