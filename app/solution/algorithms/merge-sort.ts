@@ -16,7 +16,7 @@ const merge = (firstArr: number[] | null, secondArr: number[] | null) => {
     sortedArr.push(firstArr[i] < secondArr[j] ? firstArr[i++] : secondArr[j++]);
   }
 
-  return [...sortedArr, ...firstArr.slice(i), ...secondArr.slice(j)];
+  return sortedArr.concat(firstArr.slice(i), secondArr.slice(j));
 };
 
 export const mergeSort = (array: number[]): number[] | null => {

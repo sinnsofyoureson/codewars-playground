@@ -1,9 +1,6 @@
-import { bubbleSort } from "../solution/algorithms/bubble-sort";
+import { bubbleSort } from "solution/algorithms/bubble-sort";
+import { generateArr } from "utils";
 import { assert } from "chai";
-
-const generateArr = (length: number) => {
-  return Array.from(Array(length).keys());
-};
 
 describe("Bubble Sort", () => {
   it("basic tests", () => {
