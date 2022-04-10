@@ -11,3 +11,4 @@ export * from "./vasya-game";
 export * from "./compose";
 export * from "./pipe";
 export * from "./merge-k-lists";
+export * from "./binary-gap";
